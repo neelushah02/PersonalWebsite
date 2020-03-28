@@ -13,3 +13,17 @@ h3{color: darkmagenta}
     margin-right: 15%;
     margin-bottom: 15%;
 }
+button{
+    margin-top: 12px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 5rem;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    /*padding: 10px;*/
+    height: 2em;
+    width: 7em;
+    transition: all 0.5s;
+    cursor: pointer;
+}
