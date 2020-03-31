@@ -1,6 +1,9 @@
 body{background-color: beige}
 #name{color: black; font-family:"Playfair Display",sans-serif; font-size:4em}  
+#key-info-headings{color: black; font-family: "Roboto",sans-serif; font-size: 1.5em}
 #key-info{color: black; font-family: "Roboto",sans-serif; font-size: 1em}
+#writings-heading {color: black; font-family: "Roboto",sans-serif; font-size: 1.125em}
+#writings-list{color: black; font-family: "Roboto",sans-serif; font-size: 1em}
 h3{color: darkmagenta}
 #pic{
     margin-right: 3rem;
