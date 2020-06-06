@@ -1,10 +1,9 @@
 body{background-color: beige}
-#name{color: black; font-family:"Crimson Text",sans-serif; font-size:5em}  
-#key-info-headings{color: black; font-family: "Playfair Display",sans-serif; font-size: 1.5em}
-#key-info{color: black; font-family: "Playfair Display",sans-serif; font-size: 1em}
-#writings-heading {color: black; font-family: "Playfair Display",sans-serif; font-size: 1.125em}
-#writings-list{color: black; font-family: "Playfair Display",sans-serif; font-size: 1em}
-h3{color: darkmagenta}
+#name{color: black; font-family:"Crimson Text",sans-serif; font-size:5em; margin-bottom: 0px; padding-bottom: 0px;}  
+#key-info-headings{color: gray; font-family: "Crimson Text",sans-serif; font-size: 1.5em; margin-top: 0px  }
+#key-info{color: black; font-family: "Crimson Text",sans-serif; font-size: 1.5em}
+#writings-heading {color: black; font-family: "Crimson Text",sans-serif; font-size: 1.5em}
+#writings-list{color: black; font-family: "Crimson Text",sans-serif; font-size: 1.25em}
 
 #pic
 {
@@ -12,27 +11,45 @@ h3{color: darkmagenta}
     float: left;
     width: 30%;
 }
+#to-click
+{
+    margin-left: 35%;
+    font-size: 1.5em;
+}
+
 #container
 {
-    margin-top: 10%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 15%;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 5%;
 }
-button
+
+#first section
+{
+    margin-bottom: 0px;
+}
+
+a
+{
+    text-decoration: none;
+    
+}
+
+/*button
 {
     margin-top: 12px;
     display: inline-block;
     background-color: black;
     border-radius: 5rem;
+    font-family: "Roboto";
     color: whitesmoke;
     text-align: center;
     font-size: 1em;
     height: 2em;
-    width: 7em;
+    width: 9em;
     transition: all 0.5s;
     cursor: pointer;
-}
+}*/
 
 #footer
 {
