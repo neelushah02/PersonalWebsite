@@ -17,6 +17,11 @@ body{background-color: beige}
     width: 5%; 
 }
 
+#gmail_logo
+{
+    width: 5%;
+}
+
 #github_logo
 {
     width:5%;
@@ -39,6 +44,7 @@ body{background-color: beige}
 #to-click
 {
     margin-left: 35%;
+    margin-right: auto;
     font-size: 1.5em;
 }
 
