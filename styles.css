@@ -1,22 +1,26 @@
 body{background-color: beige}
-#name{color: black; font-family:"Playfair Display",sans-serif; font-size:4em}  
+#name{color: black; font-family:"Crimson Text",sans-serif; font-size:5em}  
 #key-info-headings{color: black; font-family: "Playfair Display",sans-serif; font-size: 1.5em}
 #key-info{color: black; font-family: "Playfair Display",sans-serif; font-size: 1em}
 #writings-heading {color: black; font-family: "Playfair Display",sans-serif; font-size: 1.125em}
 #writings-list{color: black; font-family: "Playfair Display",sans-serif; font-size: 1em}
 h3{color: darkmagenta}
-#pic{
+
+#pic
+{
     margin-right: 3rem;
     float: left;
     width: 30%;
 }
-#everything{
+#container
+{
     margin-top: 10%;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 15%;
 }
-button{
+button
+{
     margin-top: 12px;
     display: inline-block;
     background-color: black;
@@ -24,9 +28,15 @@ button{
     color: whitesmoke;
     text-align: center;
     font-size: 1em;
-    /*padding: 10px;*/
     height: 2em;
     width: 7em;
     transition: all 0.5s;
     cursor: pointer;
+}
+
+#footer
+{
+    background: black;
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
 }
