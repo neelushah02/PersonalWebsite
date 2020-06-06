@@ -11,6 +11,31 @@ body{background-color: beige}
     float: left;
     width: 30%;
 }
+
+#linkedin_logo
+{
+    width: 5%; 
+}
+
+#github_logo
+{
+    width:5%;
+}
+
+#twitter_logo
+{
+    width: 5%;
+}
+
+#insta_logo
+{
+    width: 5%;
+}
+#tutari_logo
+{
+    width: 5%;
+}
+
 #to-click
 {
     margin-left: 35%;
@@ -34,23 +59,6 @@ a
     text-decoration: none;
     
 }
-
-/*button
-{
-    margin-top: 12px;
-    display: inline-block;
-    background-color: black;
-    border-radius: 5rem;
-    font-family: "Roboto";
-    color: whitesmoke;
-    text-align: center;
-    font-size: 1em;
-    height: 2em;
-    width: 9em;
-    transition: all 0.5s;
-    cursor: pointer;
-}*/
-
 #footer
 {
     background: black;
