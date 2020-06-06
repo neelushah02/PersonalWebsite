@@ -1,7 +1,7 @@
-body{background-color: beige}
+body{background-color: #fdf6e3}
 #name{color: black; font-family:"Crimson Text",sans-serif; font-size:5em; margin-bottom: 0px; padding-bottom: 0px;}  
 #key-info-headings{color: gray; font-family: "Crimson Text",sans-serif; font-size: 1.5em; margin-top: 0px  }
-#key-info{color: black; font-family: "Crimson Text",sans-serif; font-size: 1.5em}
+#key-info{color: black; font-family: "Crimson Text",sans-serif; font-size: 1em}
 #writings-heading {color: black; font-family: "Crimson Text",sans-serif; font-size: 1.5em}
 #writings-list{color: black; font-family: "Crimson Text",sans-serif; font-size: 1.25em}
 
@@ -12,34 +12,13 @@ body{background-color: beige}
     width: 30%;
 }
 
-#linkedin_logo
-{
-    width: 5%; 
-}
-
-#gmail_logo
-{
-    width: 5%;
-}
-
-#github_logo
-{
-    width:5%;
-}
-
-#twitter_logo
-{
-    width: 5%;
-}
-
-#insta_logo
-{
-    width: 5%;
-}
-#tutari_logo
-{
-    width: 5%;
-}
+#linkedin_logo{width: 5%;}
+#gmail_logo{width: 5%;}
+#spotify_logo{width: 5%;}
+#github_logo{width:5%;}
+#twitter_logo{width: 5%;}
+#insta_logo{width: 5%;}
+#tutari_logo{width: 5%;}
 
 #to-click
 {
@@ -52,19 +31,22 @@ body{background-color: beige}
 {
     width: 70%;
     margin: auto;
-    margin-top: 5%
+    margin-top: 5%;
 }
+
+#container2
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+
 
 #first section
-{
-    margin-bottom: 0px;
-}
+{margin-bottom: 0px;}
 
-a
-{
-    text-decoration: none;
-    
-}
+a{text-decoration: none;}
+
 #footer
 {
     background: black;
