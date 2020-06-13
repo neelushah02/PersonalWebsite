@@ -16,7 +16,7 @@ body{background-color: #fdf6e3}
     font-size:1.25em;
 }
 
-footer
+#f
 {
     background-color: #172d44;
     text-align: center;
@@ -24,6 +24,10 @@ footer
     width:100%;
     margin: 0px;
     padding: 0px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
 }
 
 .key-info-headings
