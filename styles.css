@@ -9,6 +9,23 @@ body{background-color: #fdf6e3}
     padding-bottom: 0px;
 }  
 
+.footer-text
+{
+    color: #fdf6e3;
+    font-family:"Crimson Text",sans-serif; 
+    font-size:1.25em;
+}
+
+footer
+{
+    background-color: #172d44;
+    text-align: center;
+    height: 4em;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 .key-info-headings
 {
     color: gray; 
