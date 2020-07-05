@@ -1,40 +1,35 @@
-body{background-color: #fdf6e3}
+body{background-color: #fdf6e3; font-size: 100%}
+
+.container
+{
+    width: 70%; 
+    margin: auto;
+    margin-top: 5%;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+    
+}
+
+#pic
+{margin-right: 5%; float:left; width: 300px;display: inline-block;}
 
 .name
 {
     color: black;
     font-family:"Crimson Text",sans-serif; 
     font-size:5em; 
-    margin-bottom: 0px; 
-    padding-bottom: 0px;
+    /*margin-bottom: 2em;*/ 
+    padding-bottom: 0%;
+    font-weight:bold;
 }  
-
-.footer-text
-{
-    color: #fdf6e3;
-    font-family:"Crimson Text",sans-serif; 
-    font-size:1.25em;
-}
-
-#f /*footer*/
-{
-    background-color: #172d44;
-    text-align: center;
-    height: 4em;
-    width:100%;
-    margin: 0px;
-    padding: 0px;
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s; /* Firefox < 16 */
-    -o-animation: fadein 2s; /* Opera < 12.1 */
-    animation: fadein 2s;
-}
 
 .key-info-headings
 {
     color: gray; 
     font-family: "Crimson Text",sans-serif; 
-    font-size: 1.5em; 
+    font-size: 2em; 
     margin-top: 0px;
 }
 
@@ -42,8 +37,13 @@ body{background-color: #fdf6e3}
 {
     color: black; 
     font-family: "Crimson Text",sans-serif; 
-    font-size: 1em;
+    font-size: 1.5em;
 }
+
+.to-click
+{/*margin-left: 35%; margin-right: auto;*/ font-size: 1.5em;}
+
+.logos{width: 1.5em;}
 
 .writings-heading 
 {
@@ -59,26 +59,30 @@ body{background-color: #fdf6e3}
     font-size: 1.25em;
 }
 
-.logos{width: 5%;}
+a{text-decoration: none;}
 
-.to-click
-{margin-left: 35%; margin-right: auto; font-size: 1.5em;}
 
-.container
+.footer-text
 {
-    width: 70%; 
-    margin: auto; 
-    margin-top: 5%;
+    color: #fdf6e3;
+    font-family:"Crimson Text",sans-serif; 
+    font-size:1.25em;
+}
+
+
+#f /*footer*/
+{
+    background-color: #172d44;
+    text-align: center;
+    height: 4em;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
     -o-animation: fadein 2s; /* Opera < 12.1 */
     animation: fadein 2s;
 }
-
-#pic
-{margin-right: 3rem; float: left; width: 30%;}
-
-a{text-decoration: none;}
 
 /* Firefox < 16 */
 @-moz-keyframes fadein 
@@ -99,5 +103,16 @@ a{text-decoration: none;}
 {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@media screen and (max-width: 800px) {
+    #pic{width: 250px; margin-bottom: 10%; margin-right: 5%}
+    .container{width: 80%}
+    .name{font-size: 3em}
+    .key-info-headings{font-size: 1.75em}
+}
+
+@media screen and (min-width: 1100px){
+    #pic{margin-bottom: 35%}
 }
 
