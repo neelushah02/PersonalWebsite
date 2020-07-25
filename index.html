@@ -9,9 +9,8 @@
 <meta name="google-site-verification" content="-bN-WGHpXdbLwpkBHjNkufB_o85q7xWXPVtTpESoDtM" />
 </head>
 <body>
-    <!--<div id= "particles-js">-->
-    <div class="container">
-        
+    <div id= "particles-js"></div>
+    <div id="container">
         <div class="intro">
             <img id="pic" src="Assets/circle-cropped.png">
             <span class="name">Neel Shah</span>
@@ -74,12 +73,13 @@
         <br>
         <br>
     </div>
-    <!--</div>-->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="app.js"></script>
+    <script>
+    document.getElementById('particles-js').style.height = document.getElementById('container').clientHeight;
+    </script>
 </body>
-    
-    <footer id="f">
-        <div class="footer-text">Designed and built by me. <br/> Written from scratch in HTML and CSS.</div>
-    </footer>
+<footer id="f">
+    <div class="footer-text">Designed and built by me. <br/> Written from scratch in HTML and CSS.</div>
+</footer>
 </html>
