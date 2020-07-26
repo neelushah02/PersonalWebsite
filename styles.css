@@ -34,7 +34,7 @@ body{background-color: #fdf6e3; font-size: 100%}
     font-weight:bold;
 }  
 
-#intro
+.intro
 {
     margin-left: 350px;
 }
@@ -47,7 +47,7 @@ body{background-color: #fdf6e3; font-size: 100%}
     margin-top: 0px;
 }
 
-#key-info
+.key-info
 {
     color: black; 
     font-family: "Crimson Text",sans-serif; 
@@ -123,9 +123,9 @@ a{text-decoration: none;}
     #pic{width: 250px; margin-bottom: 1%; margin-right: 5%}
     #container{width: 80%}
     .name{font-size: 3em}
-    #intro{margin-left: 0px}
+    .intro{margin-left: 0px}
     .key-info-headings{font-size: 1.5em}
-    #key-info{font-size: 1em}
+    .key-info{font-size: 1em}
     .to-click{font-size: 1em}
     .logos{width: 1em}
     .writings-list{font-size: 1em}
