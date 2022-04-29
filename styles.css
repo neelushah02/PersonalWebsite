@@ -25,7 +25,7 @@ button {
   background: none;
   border: none;
   padding: 0;
-  font-family: "Crimson Text",sans-serif;
+  font-family: "Radio Canada",sans-serif;
   font-size: 1.5em;
   color: #069;
   text-decoration: underline;
@@ -38,8 +38,8 @@ button {
 .name
 {
     color: black;
-    font-family:"Crimson Text",sans-serif; 
-    font-size:5em; 
+    font-family:"Radio Canada",sans-serif; 
+    font-size:5em;
     /*margin-bottom: 2em;*/ 
     padding-bottom: 0%;
     font-weight:bold;
@@ -53,7 +53,7 @@ button {
 .key-info-headings
 {
     color: gray; 
-    font-family: "Crimson Text",sans-serif; 
+    font-family: "Radio Canada",sans-serif; 
     font-size: 2em; 
     margin-top: 0px;
 }
@@ -61,7 +61,7 @@ button {
 .key-info
 {
     color: black; 
-    font-family: "Crimson Text",sans-serif; 
+    font-family: "Radio Canada",sans-serif; 
     font-size: 1.4em;
 }
 
@@ -73,24 +73,24 @@ button {
 .writings-heading 
 {
     color: black; 
-    font-family: "Crimson Text",sans-serif; 
+    font-family: "Radio Canada",sans-serif; 
     font-size: 1.5em;
 }
 
 .writings-list
 {
     color: black; 
-    font-family: "Crimson Text",sans-serif; 
+    font-family: "Radio Canada",sans-serif; 
     font-size: 1.25em;
 }
 
-a{text-decoration: none;}
+a{text-decoration: none; font-family: "Radio Canada", sans-serif;}
 
 
 .footer-text
 {
     color: #fdf6e3;
-    font-family:"Crimson Text",sans-serif; 
+    font-family:"Radio Canada",sans-serif; 
     font-size:1.25em;
 }
 
